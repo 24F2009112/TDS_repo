@@ -13,8 +13,8 @@ steps:
     uses: actions/checkout@v4
 
   - name: 24f2009112@ds.study.iitm.ac.in
-    run: echo "Hello, world!"
+    run: echo Hello
 
   - name: Finish
-    run: echo "Workflow completed"
+    run: echo Done
 ```
