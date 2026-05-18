@@ -1,20 +1,20 @@
-```yaml
 name: Test GitHub Action
 
 on:
-  workflow_dispatch:
+workflow_dispatch:
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
+test:
+runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+```
+steps:
+  - name: Checkout repository
+    uses: actions/checkout@v4
 
-      - name: 24f2009112@ds.study.iitm.ac.in
-        run: echo "Hello, world!"
+  - name: 24f2009112@ds.study.iitm.ac.in
+    run: echo "Hello, world!"
 
-      - name: Finish
-        run: echo "Workflow completed"
+  - name: Finish
+    run: echo "Workflow completed"
 ```
